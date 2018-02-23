@@ -1,5 +1,9 @@
-
-
+/**
+ * This class is represent the method that the stopwatch can do 
+ * such as start, stop , 
+ * @author Pichaun Popukdee
+ *
+ */
 public class StopWatch{
 	public static long startTime = 0;
 	public static long stopTime = 0;
@@ -26,10 +30,6 @@ public class StopWatch{
 			 return (stopTime - startTime )*(1.0E-9);
 		 }
 		}
-	public void reset() {
-		startTime = 0;
-		stopTime = 0;
-		running = false;
-	}
+	
 	
 }
