@@ -13,3 +13,10 @@ using BufferReader, append to String.        | 0.565746 sec.
 
 ## Explanation of Results
 
+FileReader append to String is slower than BufferReader and FileReader append to StringBuilder
+,but FileReader append to StringBuilder is faster than BufferReader.
+A FileReader class is a general tool to read in characters from a File.
+The BufferedReader class can wrap around Readers, like FileReader.
+
+FileReader append to String is slower than FileReader append to StringBuilder 
+because, ...
